@@ -1,0 +1,101 @@
+리춘시장 https://www.licun8888.com/#foot
+
+1120
+1920
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Header
+리춘시장
+메뉴
+매장소개
+창업절차
+창업비용
+고객센터
+
+창업문의
+02-123-4567
+
+gnb : font line-hight 10px, gnb P 14px
+header H : 70
+herder_inner : padding 0 80px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main _Section 01-mainVisual
+타이틀 padding : 100px 80px 40px;
+중국 칭다오 최고의 먹거리 장터 -p    
+P:25px
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main _Section 02
+inner P : 100px 80px 68px 80px
+상권에 따른 맞춤형 전략
+
+대형 상권과 소형 상권에 따른 맞춤형 전략으로 지역에 맞는 최적화된 모델 도출
+
+
+대형상권 -h3 : 27px , P 380px 0 0
+유동인구가 많은 역세권 또는 지역 상권에
+최적화된 맞춤형 전략을 토대로
+안정적인 수익을 달성하고 있습니다. 
+-p : 16px , P:10px 0 0
+
+
+소형상권 -h3 : 27px , P 380px 0 0
+지역 상권에 최적화된 맞춤형 전략을 토대로
+권리금이나 임대료가 저렴한 지역에서도
+높은 매출을 달성 할 수 있습니다.
+-p : 16px , P:10px 0 0
+
+margin-b : 44px 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main _Section 03
+배경이미지
+postion:realtive
+background: url(/_imgs/menu_bg.jpg) no-repeat center 0;
+
+
+inner P : 100px 80px 68px 80px
+리춘시장 메뉴 라인업
+편안한 분위기에서 부담 없이 먹고 마실 수 있는 중화요리포차
+
+
+a>img 
+postion:absolute
+box로 묶어서 width 912px - 마진 영 오토
+이미지 간 간격 : margin-right 24px
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━Main _Section 04
+section04 
+postion:realtive
+
+title img 
+ppostion:absolute
+top:90%
+width:100%
+
+메뉴탭
+top: 202px
+left: 0;
+right: 0;
+padding-bottom: 15px
+border-bottom: 1px solid #90262a;
+ㄴ margin :0 80px
+
+
+slide img 
+width 70%
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Main _Section 05
+section05 :  padding 100px 0 메뉴소개
+
+store list 
+padding : 50px 80px 30px 80px
+
+list span (제목)
+padding : 19px 10px .
+지역 매장명 주소 전화번호
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Footer
+개인정보 처리방침 -14px
+(주) 더본코리아 사업자등록번호 211-86-00870 대표이사 백종원 주소 서울시 강남구 봉은사로1 길 39 유성빌딩 5~6층
+팩스 02-511-3864 본사 대표전화 및 가맹상담전화 02-549-3864 고객센터 1544-2360
+
+COPYRIGHTⓒ 2019 THEBORN KOREA INC. ALL RIGHTS RESERVED -13px
+
+
