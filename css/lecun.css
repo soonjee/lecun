@@ -10,3 +10,14 @@
     height: 1080px;
     background: url(../img/intro_bg.png);
 }
+
+.Menu {
+    /* position: relative; */
+    background: url(../img/menu_bg.jpg) no-repeat center 0;
+    background-size: cover;
+}
+
+.MenuWrap {
+    background: url(../img/menu_bg.jpg) no-repeat center bottom;
+    background-size: cover;
+}
