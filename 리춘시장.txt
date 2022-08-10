@@ -88,9 +88,15 @@ section05 :  padding 100px 0 메뉴소개
 store list 
 padding : 50px 80px 30px 80px
 
-list span (제목)
+list span (제목) -17px
 padding : 19px 10px .
 지역 매장명 주소 전화번호
+border-bottom : 1px solide #
+
+내용 span  -15px
+padding : 25px 10px 26px; 
+
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Footer
 개인정보 처리방침 -14px
 (주) 더본코리아 사업자등록번호 211-86-00870 대표이사 백종원 주소 서울시 강남구 봉은사로1 길 39 유성빌딩 5~6층

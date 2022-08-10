@@ -1,3 +1,41 @@
+:root {
+   --mc : #9e2428;
+}
+
+.Header {
+    line-height: 70px;
+    background: #333;
+}
+
+.Header .Inner {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.Header .Gnb>ul{
+    display: flex;
+    gap: 46px;
+}
+
+.Header .CallBox {
+    position: absolute;
+    top: 20%;
+    right: 80px;
+    padding: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--mc);
+}
+
+
 .container {
     max-width: 1120px;
     width: 100%;
