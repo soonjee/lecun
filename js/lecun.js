@@ -6,4 +6,6 @@ $(function () {
         centerMode: true,
         variableWidth: true
     })
+
+
 })

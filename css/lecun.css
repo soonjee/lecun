@@ -1,47 +1,46 @@
-@font-face {
-    font-family: 'MyWebFont';
-    src: url('webfont.eot'); /* IE9 Compat Modes */
-    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-  
-    
-        }
-
-
 :root {
    --mc : #9e2428;
    --sc : #fff;
    --fc : #333;
 }
 
+.Wrap {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+/* 공통 */
+.container {
+    min-width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header */
 .Header {
-    width: 100%;
     position:fixed;
+    width: 100%;
+    height: 100%;
     line-height: 70px;
-    opacity: 0;
 }
 
 .Header.on {
     color: var(--fc);
     background: var(--sc);
     border-bottom: 1px solid var(--mc);
-    opacity: 1;
     transition: 1s;
 }
 
-
 .Header .Inner {
     display: flex;
-    max-width: 1920px;
+    min-width: 1120px;
     margin: 0 auto;
     padding: 0 80px;
     justify-content: space-between;
+
     font-size: 15px;
     font-weight: 400;
-    color: #fff;
+    color: var(--sc);
 }
 
 .Header .Gnb>ul{
@@ -55,17 +54,15 @@
     /* background: var(--mc); */
 }
 
-.container {
-    max-width: 1120px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
+.Header .CallBox i {
+    font-size: 13px;
+    color: var(--sc);
 }
 
+/* section01_Intro */
 .Intro {
     width: 100%;
-    background: url(../img/intro_bg.png);
+    background: url(../img/intro_bg.png)no-repeat center center/cover;
 }
 
 .Intro .IntroTop {
@@ -85,7 +82,7 @@
 }
 
 
-
+/* <!-- 섹션 03_Menu --> */
 .Menu {
     /* position: relative; */
     background: url(../img/menu_bg.jpg) no-repeat center 0;
