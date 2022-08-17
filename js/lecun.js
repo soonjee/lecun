@@ -1,4 +1,18 @@
 $(function () {
+
+    $('.Header').on({
+        mouseenter: function () {
+            $(this).addClass('on');
+        },
+        mouseleave: function () {
+            $(this).removeClass('on');
+        }
+    });
+
+    // $('.Header').off('mouseenter mouseleave');
+
+
+
     $('.IntroSilder').slick({
         infinite: true,
         speed: 300,

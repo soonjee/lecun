@@ -26,13 +26,6 @@
     z-index: 1;
 }
 
-.Header.on {
-    color: var(--fc);
-    background: var(--sc);
-    border-bottom: 1px solid var(--mc);
-    transition: 1s;
-}
-
 .Header .Inner {
     display: flex;
     min-width: 1120px;
@@ -45,21 +38,79 @@
     color: var(--sc);
 }
 
+.Header .Inner .HeaderLogo a {
+    display: block;
+    height: 100%;
+    padding: 17px 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+
+.Header .logo_img {
+    width: 257px;
+    height: 100%;
+    background: url(../img/header_logo.png) 0 0 no-repeat;
+}
+
 .Header .Gnb>ul{
     display: flex;
     gap: 46px;
 }
 
 .Header .CallBox {
+    display: inline-block;
     padding: 0 20px;
     text-align: center;
     /* background: var(--mc); */
+}
+
+.Header .CallBox a {
+    padding: 5px 15px;
+    border: 2px solid var(--sc);
+    border-radius: 20px;
 }
 
 .Header .CallBox i {
     font-size: 13px;
     color: var(--sc);
 }
+
+
+
+/* Header on */
+.Header.on {
+    /* color: var(--fc); */
+    background: var(--sc);
+    border-bottom: 1px solid var(--mc);
+    transition: 0.5s;
+}
+
+.Header.on .logo_img {
+    width: 257px;
+    height: 100%;
+    background: url(../img/header_logo_on.png) 0 0 no-repeat;
+}
+
+.Header.on .Gnb {
+    color: var(--fc);
+}
+
+.Header.on .CallBox a{
+    color: var(--fc);
+    border: 2px solid var(--mc);
+}
+
+.Header.on .CallBox i {
+    font-size: 13px;
+    color: var(--fc); 
+}
+
+/* Header on END */
+
+
+
+
 
 /* section01_Intro */
 .Intro {
