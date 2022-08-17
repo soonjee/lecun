@@ -5,13 +5,13 @@
 }
 
 .Wrap {
-    max-width: 1900px;
+    width: 1900px;
     margin: 0 auto;
 }
 
 /* 공통 */
 .container {
-    min-width: 1120px;
+    width: 1120px;
     margin: 0 auto;
     text-align: center;
 }
@@ -19,9 +19,11 @@
 /* Header */
 .Header {
     position:fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
     line-height: 70px;
+    z-index: 1;
 }
 
 .Header.on {
@@ -81,15 +83,119 @@
     margin : 0 80px 80px 0;
 }
 
+/* section02_Market  */
+.Market .MarketTop { padding: 100px 80px 60px; }
+.MarketTop figure { margin-bottom: 25px; }
+.MarketTop h2 { font-size: 27px; margin-bottom: 16px; }
+.MarketTop p { font-size:  16px;}
 
-/* <!-- 섹션 03_Menu --> */
+.Market  .MarketBottom {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.MarketBottom .MarketBox:nth-child(1){
+    background: url(../img/market_bg01.jpg)no-repeat center center;
+    width: 555px;
+    height: 546px;
+    margin-right: 10px;
+}
+
+.MarketBottom .MarketTxt h3 {
+    padding: 380px 0 20px 0;
+    font-size: 27px;
+    font-weight: 500;
+    color: var(--mc);
+}
+
+.MarketBottom .MarketTxt p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--fc);
+    line-height: 22px
+}
+
+
+.MarketBottom .MarketBox:nth-child(2) {
+    background: url(../img/market_bg02.jpg)no-repeat center center;
+    width: 555px;
+    height: 546px;
+}
+
+/*  section03_Menu */
 .Menu {
     /* position: relative; */
     background: url(../img/menu_bg.jpg) no-repeat center 0;
     background-size: cover;
 }
 
+.Menu .MenuTop { padding: 100px 80px 60px; }
+.Menu .MenuTop figure { margin-bottom: 25px; }
+.Menu .MenuTop h2 { font-size: 27px; margin-bottom: 16px; }
+.Menu .MenuTop p { font-size:  16px;}
+
+.Menu .container .MenuBottom {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+
+/* section04_MenuWrap */
 .MenuWrap {
     background: url(../img/menu_bg.jpg) no-repeat center bottom;
     background-size: cover;
+}
+
+.MenuWrap .MWTop {
+    padding: 100px 80px 60px;
+}
+
+
+/* Footer */
+.Footer { padding: 60px 0; background: var(--fc);}
+.Footer .container { display: flex; color: var(--sc); justify-content: space-between;}
+
+.Footer .Ftlogo {
+    width: 200px;
+}
+
+.Footer .Address { width: 700px; text-align: left; }
+
+.Footer .Address .Privacy {
+    font-size: 15px;
+    font-weight: 500;
+    color: #f00;
+    margin-bottom: 30px;
+}
+
+.Footer .Addr {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.Footer .Addr ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.Footer .Addr ul>li {
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.Footer .Addr ul>li~li::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background: #ddd;
+    margin: 0 5px;
+    /* transform: translate(-2px, 0); */
+}
+
+.Footer .FamilySite {
+    width: 140px;
 }

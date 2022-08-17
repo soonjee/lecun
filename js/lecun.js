@@ -7,5 +7,9 @@ $(function () {
         variableWidth: true
     })
 
+    $('.MWSilder').slick({
+        dots: true,
+        arrows: true,
+    })
 
 })
