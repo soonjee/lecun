@@ -134,36 +134,63 @@
 }
 
 .Intro .IntroBottom {
+    width: 1900px;
+    margin: 0 auto;
+    text-align: center;
     padding-bottom: 100px;
 }
 
-.Intro .IntroBottom .Custom_dots {
-    position: absolute;
-    bottom: 80px;
-    left: 50%;
+.Intro .IntroSilder img{
+    margin: 0 50px 50px 50px;
+}
+
+.IntroBottom .bar {
+    position: relative;
+    display: block;
     width: 900px;
     height: 3px;
-    margin-top: 80px;
-    transform: translateX(-50%);
+    margin: 0 auto;
     background: #ddd;
-    font-size: 0;
+    overflow: hidden;
 }
 
-.Intro .Custom_dots li {
-    position: relative;
-    flex: 1;
-}
-
-.Intro .Custom_dots li.on::before {
-    width: 100%;
-    transition: 2s;
+.IntroBottom .bar span {
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 33.3333333333%;
+    background: #333;
+    transition: 0.5s;
 }
 
 .Intro .slideNum {
     position: absolute;
-    color: #fff;
-    text-shadow: 0 0 3px #000;
-    font-size: 41px;
+    bottom: 10%;
+    left: 21%;
+    font-size: 30px;
+    color: #ddd;
+}
+
+.mainArrow i {
+    position: absolute;
+    bottom: 9%;
+    left: 76%;
+    /* transform: translate(-50%, -50%); */
+    color: var(--mc);
+    font-size: 40px;
+}
+
+.mainArrow i.on {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mainArrow i:nth-child(1) {
+    margin: 0 0 0 -20px;
+}
+
+.mainArrow i:nth-child(2) {
+    margin: 0 0 0 20px;
 }
 
 
@@ -215,6 +242,13 @@
 
 .Menu .MenuTop { padding: 100px 80px 60px; }
 .Menu .MenuTop figure { margin-bottom: 25px; }
+.Menu .MenuBottom figure:hover {
+    -webkit-box-shadow: 0 0 10px #000;
+    -moz-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+    transition: 0.5s;
+}
+
 .Menu .MenuTop h2 { font-size: 27px; margin-bottom: 16px; }
 .Menu .MenuTop p { font-size:  16px;}
 
@@ -225,16 +259,83 @@
 }
 
 
-
 /* section04_MenuWrap */
 .MenuWrap {
+    position: relative;
+    height: 1100px;
     background: url(../img/menu_bg.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
-.MenuWrap .MWTop {
-    padding: 100px 80px 60px;
+.MenuWrap .MWTop { padding: 100px 80px 60px; }
+.MenuWrap .MWSilder img { margin: 70px 400px; }
+.MenuWrap .MWSilder {
+    position: absolute;
+    max-width: 1900px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
 }
+
+/* MWSilder 슬릭 도츠 메뉴 */
+.MenuWrap .MWSilder .slick-dots{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 15px;
+    margin: 0 80px;
+    text-align: center;
+    border-bottom: 1px solid #90262a;
+}
+
+.MenuWrap .MWSilder .slick-dots li {
+    display: inline-block;
+}
+
+.MenuWrap .MWSilder .slick-dots>li>button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color:black;
+    font-size:2rem;
+    margin: 0 auto;
+    padding: 0 64px;
+    /* text-align: center; */
+}
+
+/* .MenuWrap .MWSilder .slick-dots>li>button::before {
+    display:none;
+} */
+
+.MenuArrow i {
+    position: absolute;
+    inset: 65% auto 100px 50%;
+    transform: translate(-50%, -50%);
+    color: var(--mc);
+    font-size: 50px;
+}
+
+.MenuArrow i.on {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.MenuArrow i:nth-child(1) {
+    margin: 0 0 0 -700px;
+}
+
+.MenuArrow i:nth-child(2) {
+    margin: 0 0 0 700px;
+}
+
+
+
+
+
+
+
 
 
 /* Footer */
