@@ -7,7 +7,20 @@ $(function () {
         mouseleave: function () {
             $(this).removeClass('on');
         }
+
     });
+
+    $(window).on('scroll', function () {
+        var sct = $(window).scrollTop();
+        // console.log(sct);
+        if (sct > 700) {
+            $('.Header').addClass('on');
+        } else {
+            $('.Header').removeClass('on')
+        }
+    });
+
+
 
     // $('.Header').off('mouseenter mouseleave');
 
