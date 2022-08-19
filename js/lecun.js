@@ -20,6 +20,17 @@ $(function () {
         }
     });
 
+    $('.IntroSilder').on('init afterChange', function (e, s, c) {
+        var current = $('.slick-current');
+        current.addClass('on').siblings().removeClass('on');
+        $('.mainArrow i').removeClass('on')
+        if (c === 1) {
+            $('.mainArrow i').addClass('on')
+        }
+
+        $('.slideNum').text((c ? (c + 1) : 1) + " / " + s.slideCount);
+    });
+
 
     $('.IntroSilder').slick({
         dots: false,
@@ -34,16 +45,7 @@ $(function () {
 
     // section01_Intro
 
-    $('.IntroSilder').on('init afterChange', function (e, s, c) {
-        var current = $('.slick-current');
-        current.addClass('on').siblings().removeClass('on');
-        $('.mainArrow i').removeClass('on')
-        if (c === 1) {
-            $('.mainArrow i').addClass('on')
-        }
 
-        $('.slideNum').text((c ? (c + 1) : 1) + " / " + s.slideCount);      
-    });
 
 
     $('.mainArrow i:nth-child(1)').on('click', function () {
@@ -58,32 +60,32 @@ $(function () {
         let t = c % 3;
 
         $('.IntroBottom .bar span').css({
-           left: t * 33.3333333333 + '%'
+            left: t * 33.3333333333 + '%'
         });
 
     })
 
 
     //section04_MenuWrap
-    
+
     $('.MWSilder').slick({
         dots: true,
         arrows: false,
-        slidesToShow : 1,		// 한 화면에 보여질 컨텐츠 개수
-		slidesToScroll : 4,
+        slidesToShow: 1,		// 한 화면에 보여질 컨텐츠 개수
+        slidesToScroll: 4,
         centerMode: true,
         variableWidth: true,
 
-        customPaging : function (slider, i) { 
+        customPaging: function (slider, i) {
             console.log($(slider.$slides[i]).html());
-            return '<button class="tab">' + $(slider.$slides[i]).find('.item').attr('data-dot-title') + '</button>';
+            return '<button class="tab">' + $(slider.$slides[i]).attr('data-dot-title') + '</button>';
         },
-      
+
         // MWSilder__init();
         //https://codepen.io/kimyangsun/pen/QWbLZGy
     })
 
-    
+
     $('.MenuArrow i:nth-child(1)').on('click', function () {
         $('.MWSilder').slick('slickPrev')
     });
@@ -91,7 +93,7 @@ $(function () {
         $('.MWSilder').slick('slickNext')
     });
 
- 
+
     // $('.MWSilder').slick({
     //     customPaging: function(slider, i) { 
     //         console.log($(slider.$slides[i]).html());
