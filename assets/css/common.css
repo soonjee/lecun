@@ -1,31 +1,8 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
-
-/* @font-face
-  {font-family:'SanHg';
-	src:url("../font/SanHgL.woff") format("woff");font-weight:300;font-style:normal;}
-
-@font-face{font-family:'SanHg';
-	src:url("../font/SanHgM.woff") format("woff");font-weight:500;font-style:normal;}
-
-@font-face{font-family:'SanHg';
-	src:url("../font/SanHgB.woff") format("woff");font-weight:700;font-style:normal;}
-
-@font-face{font-family:'NotoSansKR';
-  src:url("../font/NotoSans-Light.woff") format("woff");font-weight:200;font-style:normal;}
-
-@font-face{font-family:'NotoSansKR';
-  src:url("../font/NotoSans-DemiLight.woff") format("woff");font-weight:300;font-style:normal;}
-
-@font-face{font-family:'NotoSansKR';
-  src:url("../font/NotoSans-Regular.woff") format("woff");font-weight:400;font-style:normal;}
-
-@font-face{font-family:'NotoSansKR';
-  src:url("../font/NotoSans-Medium.woff") format("woff");font-weight:500;font-style:normal;}
-
-@font-face{font-family:'NotoSansKR';
-  src:url("../font/NotoSans-Bold.woff") format("woff");font-weight:700;font-style:normal;} */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@200;300;400;500;600;700;800;900&display=swap');
 --------------------------------------
 
 /*

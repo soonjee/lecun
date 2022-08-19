@@ -12,7 +12,7 @@
 </head>
 <style>
     * {
-        outline: 1px solid #f00;
+        outline: 1px solid #--f00;
     }
 </style>
 
@@ -28,12 +28,12 @@
                 </h1>
                 <nav class="Gnb">
                     <ul>
-                        <li><a href="">리춘시장</a></li>
-                        <li><a href="">매장소개</a></li>
-                        <li><a href="">메뉴</a></li>
-                        <li><a href="">창업절차</a></li>
+                        <li><a href="#Intro">리춘시장</a></li>
+                        <li><a href="#Market">매장소개</a></li>
+                        <li><a href="#Menu">메뉴</a></li>
+                        <li><a href="#MenuWrap">메뉴소개</a></li>
                         <li><a href="">창업비용</a></li>
-                        <li><a href="">고객센터</a></li>
+                        <li><a href="#Footer">고객센터 <i class="xi-arrow-right"></i></a></li>
                     </ul>
                 </nav>
                 <div class="CallBox">
@@ -56,6 +56,7 @@
             </section>
             <!-- section01_Intro -->
             <section class="Intro">
+                <a name="Intro"></a>
                 <div class="container">
                     <div class="IntroTop">
                         <figure>
@@ -66,9 +67,25 @@
                 </div>
                 <div class="IntroBottom">
                     <div class="IntroSilder">
-                        <figure><img src="./img/intro_slide1.jpg" alt=""></figure>
-                        <figure><img src="./img/intro_slide2.jpg" alt=""></figure>
-                        <figure><img src="./img/intro_slide3.jpg" alt=""></figure>
+                        <figure>
+                            <img src="./img/intro_slide1.jpg" alt="">
+                            <div class="introtxt">
+                                <h3>시즌별 신메뉴 출시</h3>
+                                <p>
+                                    매년 시즌에 따른 신메뉴 출시로, <br />
+                                    소비자의 니즈 충족 및 새로움 <br />
+                                    추구합니다.
+                                </p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img src="./img/intro_slide2.jpg" alt="">
+
+                        </figure>
+                        <figure>
+                            <img src="./img/intro_slide3.jpg" alt="">
+
+                        </figure>
                     </div>
                     <div class="bar">
                         <span>ddd</span>
@@ -85,6 +102,7 @@
 
             <!-- section02_Market -->
             <section class="Market">
+                <a name="Market"></a>
                 <div class="container">
                     <div class="MarketTop">
                         <figure><img src="./img/title.png" alt=""></figure>
@@ -118,6 +136,7 @@
 
             <!-- section03_Menu -->
             <section class="Menu">
+                <a name="Menu"></a>
                 <div class="container">
                     <div class="MenuTop">
                         <figure><img src="./img/title.png" alt=""></figure>
@@ -126,16 +145,16 @@
                     </div>
                     <div class="MenuBottom">
                         <figure>
-                            <img src="./img/menu_item01.jpg" alt="">
+                            <a href="#MW01"><img src="./img/menu_item01.jpg" alt=""></a>
                         </figure>
                         <figure>
-                            <img src="./img/menu_item02.jpg" alt="">
+                            <a href="#MW02"><img src="./img/menu_item02.jpg" alt=""></a>
                         </figure>
                         <figure>
-                            <img src="./img/menu_item03.jpg" alt="">
+                            <a href="#MW03"><img src="./img/menu_item03.jpg" alt=""></a>
                         </figure>
                         <figure>
-                            <img src="./img/menu_item04.jpg" alt="">
+                            <a href="#MW04"><img src="./img/menu_item04.jpg" alt=""></a>
                         </figure>
                     </div>
                 </div>
@@ -143,6 +162,7 @@
 
             <!-- section04_MenuWrap -->
             <section class="MenuWrap">
+                <a name="MenuWrap"></a>
                 <div class="container">
                     <div class="MWTop">
                         <figure>
@@ -152,16 +172,16 @@
                 </div>
                 <div class="MWSilder">
                     <figure class="item" data-dot-title="마라메뉴">
-                        <img src="./img/MWslider01.png" alt="">
+                        <a name="MW01"><img src="./img/MWslider01.png" alt=""></a>
                     </figure>
                     <figure class="item" data-dot-title="시그니처메뉴">
-                        <img src="./img/MWslider02.png" alt="">
+                        <a name="MW02"><img src="./img/MWslider02.png" alt=""></a>
                     </figure>
                     <figure class="item" data-dot-title="메뉴소개">
-                        <img src="./img/MWslider03.png" alt="">
+                        <a name="MW03"><img src="./img/MWslider03.png" alt=""></a>
                     </figure>
                     <figure class="item" data-dot-title="주류">
-                        <img src="./img/MWslider04.png" alt="">
+                        <a name="MW04"><img src="./img/MWslider04.png" alt=""></a>
                     </figure>
                 </div>
                 <div class="MenuArrow">
@@ -184,6 +204,7 @@
 
         <!-- Footer -->
         <footer class="Footer">
+            <a name="Footer"></a>
             <div class="container">
                 <div class="Ftlogo">
                     <figure>
@@ -244,6 +265,7 @@
 
     <script src="./assets/js/jquery-1.12.4.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
+    <script src="./js/easy-scroll.js"></script>
     <script src="./js/lecun.js"></script>
 </body>
 
