@@ -307,13 +307,16 @@
 
 .MenuWrap .MWSilder .slick-dots li { display: inline-block; }
 .MenuWrap .MWSilder .slick-dots>li>button {
+    margin: 0 auto;
+    padding: 0 64px;
+
     outline: none;
     border: none;
     background-color: transparent;
     color:black;
-    font-size:2rem;
-    margin: 0 auto;
-    padding: 0 64px;
+    font-size:25px;
+    font-weight: 500;
+    font-family: 'Noto Serif HK', serif;
     /* text-align: center; */
 }
 
@@ -674,6 +677,7 @@
     margin: auto;
     text-align: center;
     overflow: hidden;
+    
 }
 
 /* MWSilder 슬릭 도츠 메뉴 */
@@ -690,13 +694,14 @@
 
 .MenuWrap .MWSilder .slick-dots li { display: inline-block; }
 .MenuWrap .MWSilder .slick-dots>li>button {
+    margin: 0 auto;
+    padding: 0 64px;
     outline: none;
     border: none;
     background-color: transparent;
     color:black;
     font-size:2rem;
-    margin: 0 auto;
-    padding: 0 64px;
+    /* font-family: 'Noto Serif HK', serif; */
     /* text-align: center; */
 }
 
