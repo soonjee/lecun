@@ -81,7 +81,7 @@ $(function () {
             return '<button class="tab">' + $(slider.$slides[i]).attr('data-dot-title') + '</button>';
         },
 
-        // MWSilder__init();
+        // find 는 자식에서 찾기때문에 필요없었음.
         //https://codepen.io/kimyangsun/pen/QWbLZGy
     })
 
